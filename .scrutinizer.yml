@@ -1,0 +1,11 @@
+build:
+  environment:
+    selenium: true
+    timezone: Asia/Tokyo
+    node: v8.9.1
+    postgresql: false
+    redis: false
+  tests:
+    override:
+      -
+        command: ./node_modules/.bin/wdio
