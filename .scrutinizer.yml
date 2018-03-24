@@ -8,4 +8,4 @@ build:
   tests:
     override:
       -
-        command: ./node_modules/.bin/wdio
+        command: npm test
